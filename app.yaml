@@ -1,0 +1,9 @@
+runtime: go117
+service: middleware
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  GAE_USE_MEMCACHE: 'true'
