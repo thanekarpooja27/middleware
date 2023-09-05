@@ -7,6 +7,3 @@ handlers:
 
 env_variables:
   GAE_USE_MEMCACHE: 'true'
-
-  # Specify the region
-region: us-central1
