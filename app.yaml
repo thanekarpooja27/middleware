@@ -5,6 +5,3 @@ env: flex
 handlers:
 - url: /.*
   script: auto
-
-env_variables:
-  GAE_USE_MEMCACHE: 'true'
