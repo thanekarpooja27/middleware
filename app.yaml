@@ -1,5 +1,6 @@
 runtime: go120
 service: middleware
+env: flex
 
 handlers:
 - url: /.*
